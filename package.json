@@ -1,0 +1,48 @@
+{
+  "name": "jshelp",
+  "version": "1.1.7",
+  "author": "Lemonwck",
+  "description": "A terminal-based resource to help you find js methods without digging through the docs",
+  "main": "./bin/index.js",
+  "bin": {
+    "jshelp": "./bin/index.js",
+    "lookup": "./bin/lookup.js",
+    "clearlookup": "./bin/clearLookup.js"
+  },
+  "scripts": {
+    "test": "test",
+    "man": "cd man && marked-man --version 'v1.1.4' --manual 'JS Explorer Help' --section 1 man.md > jshelp.1"
+  },
+  "directories": {
+    "man": "man"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/Lemonwck/jshelp.git"
+  },
+  "keywords": [
+    "array",
+    "object",
+    "javascript",
+    "terminal"
+  ],
+  "type": "module",
+  "preferGlobal": true,
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/Lemonwck/jshelp/issues"
+  },
+  "homepage": "https://github.com/Lemonwck/jshelp#readme",
+  "dependencies": {
+    "boxen": "^5.0.1",
+    "chalk": "^4.1.1",
+    "configstore": "^6.0.0",
+    "figures": "^3.2.0",
+    "hyperlinker": "^1.0.0",
+    "indent-string": "^5.0.0",
+    "inquirer": "^8.1.1",
+    "marked-man": "^0.7.0",
+    "minimist": "^1.2.5",
+    "supports-hyperlinks": "^2.2.0"
+  }
+}
