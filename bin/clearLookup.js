@@ -10,7 +10,7 @@ const clearQuestion = [
   {
     type: 'confirm',
     name: 'confirmDelete',
-    message: 'Are you sure you want to delete all of your stored jshelp items?',
+    message: 'Are you sure you want to delete all of your stored jshelpmd items?',
     default: true,
   }
 ]
@@ -20,5 +20,5 @@ inquirer.prompt(clearQuestion).then((answer) => {
     store.clear()
   }
 
-  console.log(chalk.cyan('\njshelp ' + figures.arrowRight) + ' entries all cleared!\n')
+  console.log(chalk.cyan('\njshelpmd ' + figures.arrowRight) + ' entries all cleared!\n')
 })

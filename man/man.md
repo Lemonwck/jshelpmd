@@ -5,20 +5,20 @@ JS EXPLORER
 
 ## POSSIBLE COMMANDS
 
-`jshelp`
+`jshelpmd`
 Runs the explorer tool, allows you to save the entry at the end (optional)
 
-`jshelp plain`
+`jshelpmd plain`
 Runs the tool without asking to save at the end
 
-`jshelp -p`
+`jshelpmd -p`
 Same as above, aliased p for plain
 
 `lookup [string to look up]`
 If you save an entry, you can run lookup and the string to find that entry and print it
 
 `clearlookup`
-Clears all jshelp saved entries
+Clears all jshelpmd saved entries
 
 ## BUGS
 

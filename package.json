@@ -1,24 +1,24 @@
 {
-  "name": "jshelp",
+  "name": "jshelpmd",
   "version": "1.1.7",
   "author": "Lemonwck",
   "description": "A terminal-based resource to help you find js methods without digging through the docs",
   "main": "./bin/index.js",
   "bin": {
-    "jshelp": "./bin/index.js",
-    "lookup": "./bin/lookup.js",
-    "clearlookup": "./bin/clearLookup.js"
+    "jshelpmd": "bin/index.js",
+    "lookup": "bin/lookup.js",
+    "clearlookup": "bin/clearLookup.js"
   },
   "scripts": {
     "test": "test",
-    "man": "cd man && marked-man --version 'v1.1.4' --manual 'JS Explorer Help' --section 1 man.md > jshelp.1"
+    "man": "cd man && marked-man --version 'v1.1.4' --manual 'JS Explorer Help' --section 1 man.md > jshelpmd.1"
   },
   "directories": {
     "man": "man"
   },
   "repository": {
     "type": "git",
-    "url": "git+https://github.com/Lemonwck/jshelp.git"
+    "url": "git+https://github.com/Lemonwck/jshelpmd.git"
   },
   "keywords": [
     "array",
@@ -30,9 +30,9 @@
   "preferGlobal": true,
   "license": "MIT",
   "bugs": {
-    "url": "https://github.com/Lemonwck/jshelp/issues"
+    "url": "https://github.com/Lemonwck/jshelpmd/issues"
   },
-  "homepage": "https://github.com/Lemonwck/jshelp#readme",
+  "homepage": "https://github.com/Lemonwck/jshelpmd#readme",
   "dependencies": {
     "boxen": "^5.0.1",
     "chalk": "^4.1.1",

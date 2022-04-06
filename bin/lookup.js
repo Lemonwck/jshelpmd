@@ -18,7 +18,7 @@ if (store.get(finalArgv)) {
 } else {
   console.log(chalk.redBright(`\nSorry!`) + `
 We can't quite find what you're looking for.
-Perhaps run ${chalk.cyanBright('jshelp')} again and make sure you've stored it appropriately?
+Perhaps run ${chalk.cyanBright('jshelpmd')} again and make sure you've stored it appropriately?
 
 You can also look up commands by typing ${chalk.cyanBright('man explorer')}\n`)
 }

@@ -11,7 +11,7 @@
 我建议在全球范围内安装这个工具，这样无论你在做什么项目，你都可以使用它，但你可以把它去掉 `-g` 如果要在特定项目中使用，请标记：
 
 ```
-npm i -g jshelp
+npm i -g jshelpmd
 ```
 
 > 在执行此命令之前，您可能需要运行  `sudo npm i -g js-explorer`
@@ -19,7 +19,7 @@ npm i -g jshelp
 然后，要启动资源管理器，请键入：
 
 ```
-jshelp
+jshelpmd
 ```
 您将通过提示找到您的方法！
 它还允许您在末尾保存条目（可选）
@@ -27,13 +27,13 @@ jshelp
 ### 其他命令
 
 ```
-jshelp plain
+jshelpmd plain
 ```
 
 运行该工具而不要求在最后保存。
 
 ```
-jshelp -p
+jshelpmd -p
 ```
 
 同上，别名p表示普通。
